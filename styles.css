@@ -1,0 +1,163 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 12 jun. 2023, 19:15:14
+    Author     : nesfa
+*/
+
+.casa{
+    position: relative;
+    width: 100%;
+    height: 300vh;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 30%;
+    left: 30%;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto; /*margen*/
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px; /*margen*/
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+.borde{
+  width: 400px;
+  border: 22px solid black;
+  border-image-width: 42px;
+  border-image-source: url(img/borde.png);
+  border-image-slice: 110;
+  border-image-outset: 0px;
+  border-image-repeat: repeat;
+}
+
+div nav{
+border: 6px solid red;
+-moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+padding: 1px; /*padding*/
+background: linear-gradient(aqua,yellow);
+}
+
+/*Personalización de al menos 5 estilos diferentes de texto*/
+h1{
+    color: blueviolet;
+    font-family: 'Arial', sans-serif;
+}
+
+h2{
+    color: blue;
+    font-family: 'Arial', sans-serif;
+}
+
+p{
+    color: red;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+ol li{
+    color: red;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+dt{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+dd{
+    color: red;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+footer a img{
+    width: 100px;
+    height: 50px;
+}
+
+/* Sombra de un footer*/
+/*transparencia*/
+footer {
+  box-shadow: 0 0 0 2em black,
+              0 0 0 4em red;
+  margin: 4em;
+  padding:1em;
+  opacity: 0.7;
+}
+/*transfomracion de 3 imagenes*/
+div img{
+    transform: scale(3.5);
+    transform: rotate(15deg);
+}
+table {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+audio {
+    margin: 10px;
+}
+th,
+td,
+h2,
+dt,
+dd {
+    font-family: Arial, sans-serif;
+}
+map img {
+    transform: rotate(10deg) scale(1.2);
+}
+map {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+map img {
+    width: 200px;
+    height: auto;
+    margin-right: 500px;
+    border-radius: 50%;
+    transform: rotate(10deg);
+}
